@@ -250,7 +250,7 @@ input[type=submit] {
   }
 
   .auth-image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     float: none;
   }
@@ -277,12 +277,51 @@ input[type=submit] {
     height: auto;
     float: left;
   }
-  .work{
-    max-width: 100%;
-  }
+
 }
 
 /*smaller than phone landscape*/
 @media screen and (max-width: 640px) {
+  .container{
+    max-width: 100%;
+  }
+  
+  #masthead{
+    position: static;
+  }
 
+  #main-container{
+    padding-top: 0px;
+  }
+  
+  .work{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .auth-image {
+    max-width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  #logo{
+    float: left;
+    width: 100%;
+  }
+
+  nav{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  nav a{
+    width: 30%;
+    line-height: auto;
+    max-width: 33%;
+    text-align: center;
+
+  }
 }
